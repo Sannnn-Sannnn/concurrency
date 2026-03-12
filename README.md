@@ -1,5 +1,9 @@
 # Concurrent Programming
 
+### Note:
+
+This is a fork of the original repository: https://github.com/FacultadDeIngenieria/concurrency.git. The `main` branch is identical to the original repository, while all resolutions are in the `work` branch.
+
 ## Classes
 
 
