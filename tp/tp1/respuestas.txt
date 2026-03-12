@@ -1,0 +1,6 @@
+Cuando dos request simultáneas tardan en procesarse, se devuelve el valor de la
+primera en terminar, es decir, no quedan encoladas.
+
+Ésto se debe a que el servidor usa threads. El ejercicio debía hacerse sin
+threads (en realidad se suponía que lo haríamos sin threads para luego hacerlo
+con threads en el tp2, pero no nos dijeron)
