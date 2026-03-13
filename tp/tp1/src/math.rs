@@ -14,7 +14,7 @@ pub fn leibniz (n: u64) -> f64 {
   }
   let mut output = 0.0;
   for i in 1..n + 1 {
-    output += is_even(n) / (2 * n + 1) as f64;
+    output += is_even(i) / (2 * i + 1) as f64;
   }
   output
 }
