@@ -1,0 +1,12 @@
+1. Bajo carga concurrente intensa (aumentando -n y -c en ab), ¿qué efectos se
+   observan en el comportamiento del servidor? ¿Cómo se comparan con los
+   resultados obtenidos en el TP2?
+
+   Con un mayor n aumenta el tiempo que toma realizar las pruebas. Con un mayor
+   c se reduce la cantidad de respuestas fallidas.
+
+2. ¿Cómo se ve afectado el comportamiento ante carga concurrente intensa para
+   diferentes tamaños de thread pool?
+
+   Con un mayor tamaño de threadpool, se reduce el tiempo total de respuesta,
+   pero aumenta la cantidad de respuestas fallidas.
