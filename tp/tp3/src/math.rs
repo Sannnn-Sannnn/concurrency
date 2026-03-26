@@ -1,5 +1,3 @@
-use std::thread;
-
 pub fn leibniz (n: u64) -> f64 {
   let mut output = 0.0;
   for i in 1..n + 1 {
