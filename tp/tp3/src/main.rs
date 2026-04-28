@@ -8,7 +8,7 @@ mod worker;
 
 use crate::threadpool::ThreadPool;
 
-const THREADPOOL_SIZE: usize = 3;
+const THREADPOOL_SIZE: usize = 4;
 
 pub fn main() {
   let address = SocketAddr::from(([127, 0, 0, 1], 3030));
