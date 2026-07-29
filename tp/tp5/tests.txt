@@ -1,0 +1,15 @@
+_____________________________________________________________________________
+| Test | Producers | Consumers | Items/thread | Qué mide                     |
+|------|-----------|-----------|--------------|------------------------------|
+| 1    |         4 |         4 |          100 | overhead mínimo              |
+| 2    |         4 |         4 |      100_000 | caso medio                   |
+| 3    |         4 |         4 |    1_000_000 | throughput alto              |
+| 4    |         1 |         1 |      100_000 | baseline sin contención      |
+| 5    |         2 |         2 |      100_000 | escalado inicial             |
+| 6    |         4 |         1 |      100_000 | contention en push           |
+| 7    |         8 |         8 |      100_000 | alta concurrencia balanceada |
+| 8    |         8 |         2 |      100_000 | muchos productores           |
+| 9    |        16 |         2 |      100_000 | contention extrema en push   |
+| 10   |         2 |         8 |      100_000 | muchos consumidores          |
+| 11   |         2 |        16 |      100_000 | contention extrema en pop    |
+|______|___________|___________|______________|______________________________|
